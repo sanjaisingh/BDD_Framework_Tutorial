@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="55.144621">
+<testcase classname="Customer" name="Add a new customer" time="32.249582">
+<system-out><![CDATA[Given User launch browser and application URL...............................passed
+When User enters email and password.........................................passed
+And Click on login button...................................................passed
+Then User can view dashboard................................................passed
+When Click on customer menus................................................passed
+And Click on customer menu item.............................................passed
+And Click on add new buttom.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Successfull login with valid credentials" time="22.895039">
+<system-out><![CDATA[Given User launch browser and application URL...............................passed
+When User enters email and password.........................................passed
+And Click on login button...................................................passed
+Then Page title should be "Dashboard / nopCommerce administration"..........passed
+When Click on logout link...................................................passed
+Then Page title should be "Your store. Login"...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
