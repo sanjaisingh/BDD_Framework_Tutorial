@@ -11,7 +11,7 @@ import enums.DriverType;
 public class ConfigFileReader {
 
 	private Properties properties;
-	private final String propertyFilePath = "Configurations/Configs.properties";
+	private final String propertyFilePath = System.getProperty("user.dir")+"/Configurations/Configs.properties";
 	
 	public ConfigFileReader() {
 
